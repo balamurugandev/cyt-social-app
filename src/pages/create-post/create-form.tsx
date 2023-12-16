@@ -35,8 +35,8 @@ export const CreateForm = () => {
    await addDoc(postsRef, {
     title: data.title,
     description: data.description,
-    username: user?.displayName,
     userid: user?.uid,
+    username: user?.displayName,
    });
 
    navigate("/");
