@@ -1,7 +1,8 @@
 import { useAuthState } from "react-firebase-hooks/auth";
 import { db, auth } from "../../config/firebase";
 import { PostType } from "./main";
-import {addDoc,deleteDoc, getDocs,doc, collection, query, where} from "firebase/firestore";
+import {addDoc,deleteDoc, getDocs,doc, collection, query, where} 
+from "firebase/firestore";
 import { useEffect, useState } from "react";
 
 
